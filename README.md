@@ -16,9 +16,10 @@ Commands to run this particular project:
 - npm install
 - npm run serve
 
-Git:
+To convert to typescript:
 
-- git add . && git commit -m "c" && git push origin master
+- vue add typescript
+- Add the <template> content from JS version to TS version in App.vue file.
 
 ## Project setup
 
@@ -44,10 +45,14 @@ npm run build
 npm run lint
 ```
 
+Git:
+
+- git add . && git commit -m "c" && git push origin typescript
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 Demo:
 
-https://user-images.githubusercontent.com/55496113/222188722-2cdfd352-51ba-4c5d-8b3a-aff3e742197a.mp4
+https://user-images.githubusercontent.com/55496113/222189612-b888b9d0-fcef-4f9f-9581-11254ddd77ad.mp4
